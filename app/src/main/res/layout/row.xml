@@ -17,30 +17,32 @@
         android:layout_marginTop="19dp" />
 
     <TextView
-        android:id="@+id/eventLocation"
+        android:id="@+id/eventDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SHPE ROOM"
+        android:text="Apr 21"
         android:layout_below="@+id/eventName"
-        android:layout_alignLeft="@+id/eventName"
-        android:layout_alignStart="@+id/eventName" />
+        android:layout_alignLeft="@+id/eventTime"
+        android:layout_alignStart="@+id/eventTime" />
 
     <TextView
         android:id="@+id/eventTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="3:00 pm - 6:00 pm"
-        android:layout_below="@+id/eventLocation"
+        android:layout_below="@+id/eventDate"
         android:layout_alignLeft="@+id/eventLocation"
         android:layout_alignStart="@+id/eventLocation" />
 
     <TextView
-        android:id="@+id/eventDate"
+        android:id="@+id/eventLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Apr 21"
+        android:text="SHPE ROOM"
         android:layout_below="@+id/eventTime"
-        android:layout_alignLeft="@+id/eventTime"
-        android:layout_alignStart="@+id/eventTime" />
+        android:layout_alignLeft="@+id/eventName"
+        android:layout_alignStart="@+id/eventName" />
+
+
 
 </RelativeLayout>
