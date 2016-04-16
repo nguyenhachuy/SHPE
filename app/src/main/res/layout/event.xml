@@ -2,4 +2,48 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/screenEventName"
+        android:text="CSE 100"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/screenEventDate"
+        android:layout_alignStart="@+id/screenEventDate"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/screenEventDate"
+        android:text="Apr 21"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="26dp"
+        android:textSize="30dp"
+        android:layout_below="@+id/screenEventName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/screenEventTime"
+        android:text="3:00pm - 6:00pm"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/screenEventDate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/screenEventLocation"
+        android:text="SHPE ROOM"
+        android:textSize="50dp"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/screenEventName"
+        android:layout_alignLeft="@+id/screenEventDate"
+        android:layout_alignStart="@+id/screenEventDate" />
 </RelativeLayout>
