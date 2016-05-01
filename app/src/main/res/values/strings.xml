@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SHPESTUDY</string>
+    <string name="title_activity_recycler_view">RecyclerView</string>
 </resources>
